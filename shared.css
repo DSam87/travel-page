@@ -24,6 +24,10 @@ header li {
   margin-left: 20px;
 }
 
+header a {
+  text-decoration: none;
+}
+
 #page-logo a {
   padding: 10px;
   font-family: "Oleo Script", sans-serif;
