@@ -52,9 +52,44 @@
   width: 90%;
   margin: auto;
   margin-bottom: 40px;
+  justify-content: center;
+}
+
+#highlights {
+  padding: 24px;
+  background-color: rgb(227, 255, 253);
+}
+
+#highlights h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(59, 64, 64);
+  margin: 24px 0;
+}
+
+.destination {
+  margin: 0 20px;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+}
+
+.destination p {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(123, 123, 123);
+  margin: 12px 0px;
 }
 
 .destination img {
   height: 200px;
   width: 100%;
+  box-shadow: 2px 4px 8px rgb(38, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.destination strong {
+  margin: 0 5px;
+  color: rgb(51, 255, 0);
 }
